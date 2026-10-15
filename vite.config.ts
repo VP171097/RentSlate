@@ -7,9 +7,9 @@ import { pageTitles } from './src/utils/pageTitles.js'
 
 // https://vite.dev/config/
 export default defineConfig(({ command }) => {
-  // GitHub Pages serves this app from /TenantRentManager/; the dev server
+  // GitHub Pages serves this app from /RentSlate/; the dev server
   // serves from /.
-  const base = command === 'serve' ? '/' : (process.env.VITE_BASE_PATH || '/TenantRentManager/')
+  const base = command === 'serve' ? '/' : (process.env.VITE_BASE_PATH || '/RentSlate/')
 
   return {
     base,
